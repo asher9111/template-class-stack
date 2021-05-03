@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="template class stack.cpp" />
+    <ClCompile Include="TStack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TStack.h" />

@@ -6,7 +6,7 @@ template <class T>
 class Stack
 {
 public:
-	Stack(int = 10);
+	Stack(int s =  10);
 
 	~Stack() { delete[] stackPtr; }
 
@@ -24,3 +24,9 @@ private:
 	   
 
 };
+
+template<class T>
+inline int Stack<T>::pop(T&)
+{
+	return 0;
+}
