@@ -6,7 +6,7 @@ template <class T>
 class Stack
 {
 public:
-	Stack(int s =  10);
+	Stack(int s = 10);
 
 	~Stack() { delete[] stackPtr; }
 
