@@ -21,5 +21,6 @@ private:
 	int size;
 	int top;
 	T* stackPtr;
+	   
 
 };
