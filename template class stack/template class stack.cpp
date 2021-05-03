@@ -8,12 +8,12 @@ using namespace std;
 int main()
 {
     Stack<float> floatStack(5);
-    float f = 1.1;
+    float f = ((float)1.1);                                                                         // явно привел дефолтовый дабл к флоату 
     cout << "arrangement of elements in floatStack" << endl;
     while (floatStack.push(f))
     {
         cout << f << '   ';
-        f += 1.1;
+        f += 1.1f;                                                                                      // тут дефолтность стала флоатом из за f
     }
     
     

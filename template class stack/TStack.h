@@ -25,8 +25,3 @@ private:
 
 };
 
-template<class T>
-inline int Stack<T>::pop(T&)
-{
-	return 0;
-}
