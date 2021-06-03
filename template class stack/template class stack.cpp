@@ -3,11 +3,11 @@
 #include <iostream>
 #include "TStack.h"
 
-using namespace std;
+//using namespace std;
 
 int main()
 {
-    Stack<float> floatStack(5);
+    Stack<float> floatStack(6);
    /* float f = ((float)1.1);                                                                         // явно привел дефолтовый дабл к флоату 
     cout << "arrangement of elements in floatStack" << endl;
     while (floatStack.push(f))
