@@ -23,7 +23,7 @@ int main()
         cout << f << '   ';
     }
 
-    cout << endl << "Stack is empty !" << endl; */ 
+    cout << endl << "Stack is empty !" << endl; */
     return 0;
 }
 
